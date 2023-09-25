@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-container {
+  background-color: #223a5f;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  border-width: 1px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  height: 210px;
+  padding: 20px;
+  padding-top: 0;
+  margin-bottom: 60px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  color: white;
+}
+
+.score-container {
+  background-color: white;
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #223a5f;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+}
+
+.button {
+  background-color: transparent;
+  border-width: 0;
+}
+
+.result-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.result-alignment {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.score-paragraph {
+  font-family: Roboto;
+}
